@@ -1,0 +1,136 @@
+body {
+    width: 960px;
+    margin: 0 auto;
+
+}
+
+.b {
+    box-shadow: 10px 10px 10px 5px grey;
+}
+
+p {
+    font-weight: bold;
+    padding: 5px;
+
+}
+
+ul li.green {
+    color: green;
+}
+
+h1 {
+    text-align: center;
+    box-shadow: none;
+}
+
+ul li.red {
+    color: red;
+}
+
+ul li.black {
+    color: black;
+}
+
+ul {
+    padding-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0 0 2px 0;
+    margin-bottom: 38px;
+}
+
+nav li {
+    display: inline;
+    float: left;
+}
+
+nav a:link, a:visited {
+    color: lightpink;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    padding: 10px 10px;
+
+}
+
+nav a:hover {
+    color: black;
+}
+
+nav a.current {
+    color: white;
+    background-color: lightpink;
+    display: block;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.photoside {
+    float: left;
+}
+
+hr {
+    border: 2px solid black;
+    width: 950px;
+}
+
+@media only screen and (max-width: 970px) {
+    body {
+        background-color: lightblue;
+        width: auto;
+        padding-left: 2px;
+    }
+
+    nav li {
+        display: inline;
+        float: none;
+    }
+
+    .headerphoto {
+        width: 100%;
+    }
+
+    hr {
+        width: auto
+    }
+
+    b {
+        width: auto
+    }
+    .photoside {
+        float: left;
+        margin-right: 2%;
+    }
+}
+@media only screen and (max-width: 140px) {
+    body {
+        background-color: lightblue;
+        width: auto;
+        padding-left: 2px;
+    }
+
+    nav li {
+        display: inline;
+        float: none;
+    }
+
+    .headerphoto {
+        width: 100%;
+    }
+
+    hr {
+        width: auto
+    }
+
+    b {
+        width: auto
+    }
+    .photoside {
+        float: left;
+        width: 100%;
+
+    }
+}
